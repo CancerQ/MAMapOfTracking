@@ -104,7 +104,7 @@ mutablePolyline和mutableView相当于画笔和画板，没错这样去理解（
   }
 ```
 使用上述的方法去取消动画，如果对方向有要求的记录一下停止之前的方向然后再试下
-```obj
+```objc
 self.myLocation.movingDirection = self.heading;
 ```
 以上就是整个绘制和播放了
