@@ -7,15 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1023B5D41EF772EA0009119D /* Const_Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1023B5D31EF772EA0009119D /* Const_Basic.m */; };
+		103ACB481EF7B57700257928 /* RouteDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 103ACB451EF7B57700257928 /* RouteDrawViewController.m */; };
+		103ACB4E1EF7B5A500257928 /* StatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 103ACB4A1EF7B5A500257928 /* StatusView.m */; };
+		103ACB4F1EF7B5A500257928 /* SystemInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 103ACB4C1EF7B5A500257928 /* SystemInfoView.m */; };
+		103ACB551EF7B5D300257928 /* MAMutablePolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 103ACB521EF7B5D300257928 /* MAMutablePolyline.m */; };
+		103ACB561EF7B5D300257928 /* MAMutablePolylineRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 103ACB541EF7B5D300257928 /* MAMutablePolylineRenderer.m */; };
+		103ACB641EF7B63B00257928 /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 103ACB611EF7B63B00257928 /* FileHelper.m */; };
+		103ACB651EF7B63B00257928 /* SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 103ACB631EF7B63B00257928 /* SystemInfo.m */; };
+		103ACB681EF7C8CA00257928 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 103ACB671EF7C8CA00257928 /* Record.m */; };
+		1054F62B1F0B26C20007F074 /* TipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1054F62A1F0B26C20007F074 /* TipView.m */; };
+		1054F62E1F0B27080007F074 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1054F62D1F0B27080007F074 /* RecordViewController.m */; };
+		1054F6311F0B27160007F074 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1054F6301F0B27160007F074 /* DisplayViewController.m */; };
+		1054F6341F0B37230007F074 /* MySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1054F6331F0B37230007F074 /* MySlider.m */; };
 		10818CBF1EF51DAB007D02FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10818CBE1EF51DAB007D02FB /* main.m */; };
 		10818CC21EF51DAB007D02FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10818CC11EF51DAB007D02FB /* AppDelegate.m */; };
 		10818CC51EF51DAB007D02FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10818CC41EF51DAB007D02FB /* ViewController.m */; };
 		10818CC81EF51DAB007D02FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10818CC61EF51DAB007D02FB /* Main.storyboard */; };
 		10818CCA1EF51DAB007D02FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10818CC91EF51DAB007D02FB /* Assets.xcassets */; };
 		10818CCD1EF51DAB007D02FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10818CCB1EF51DAB007D02FB /* LaunchScreen.storyboard */; };
+		108345791F054F7000A32FBA /* PerKilometerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 108345781F054F7000A32FBA /* PerKilometerLabel.m */; };
+		1083457C1F054F8700A32FBA /* PerKulometerPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1083457B1F054F8700A32FBA /* PerKulometerPoint.m */; };
+		4560332EE2B10F0CA5C777ED /* Pods_MAMapOfTracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9C5AA1763BD0321F5A702B /* Pods_MAMapOfTracking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1023B5D01EF769C80009119D /* MAMapTracking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MAMapTracking-Prefix.pch"; sourceTree = "<group>"; };
+		1023B5D21EF772EA0009119D /* Const_Basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const_Basic.h; sourceTree = "<group>"; };
+		1023B5D31EF772EA0009119D /* Const_Basic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const_Basic.m; sourceTree = "<group>"; };
+		103ACB441EF7B57700257928 /* RouteDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteDrawViewController.h; sourceTree = "<group>"; };
+		103ACB451EF7B57700257928 /* RouteDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteDrawViewController.m; sourceTree = "<group>"; };
+		103ACB491EF7B5A500257928 /* StatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusView.h; sourceTree = "<group>"; };
+		103ACB4A1EF7B5A500257928 /* StatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusView.m; sourceTree = "<group>"; };
+		103ACB4B1EF7B5A500257928 /* SystemInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInfoView.h; sourceTree = "<group>"; };
+		103ACB4C1EF7B5A500257928 /* SystemInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInfoView.m; sourceTree = "<group>"; };
+		103ACB511EF7B5D300257928 /* MAMutablePolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMutablePolyline.h; sourceTree = "<group>"; };
+		103ACB521EF7B5D300257928 /* MAMutablePolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMutablePolyline.m; sourceTree = "<group>"; };
+		103ACB531EF7B5D300257928 /* MAMutablePolylineRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMutablePolylineRenderer.h; sourceTree = "<group>"; };
+		103ACB541EF7B5D300257928 /* MAMutablePolylineRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMutablePolylineRenderer.m; sourceTree = "<group>"; };
+		103ACB601EF7B63B00257928 /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		103ACB611EF7B63B00257928 /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
+		103ACB621EF7B63B00257928 /* SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInfo.h; sourceTree = "<group>"; };
+		103ACB631EF7B63B00257928 /* SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInfo.m; sourceTree = "<group>"; };
+		103ACB661EF7C8CA00257928 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		103ACB671EF7C8CA00257928 /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		1054F6291F0B26C20007F074 /* TipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipView.h; sourceTree = "<group>"; };
+		1054F62A1F0B26C20007F074 /* TipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipView.m; sourceTree = "<group>"; };
+		1054F62C1F0B27080007F074 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		1054F62D1F0B27080007F074 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		1054F62F1F0B27160007F074 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		1054F6301F0B27160007F074 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		1054F6321F0B37230007F074 /* MySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySlider.h; sourceTree = "<group>"; };
+		1054F6331F0B37230007F074 /* MySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySlider.m; sourceTree = "<group>"; };
 		10818CBA1EF51DAB007D02FB /* MAMapOfTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAMapOfTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10818CBE1EF51DAB007D02FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10818CC01EF51DAB007D02FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +69,13 @@
 		10818CC91EF51DAB007D02FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10818CCC1EF51DAB007D02FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10818CCE1EF51DAB007D02FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108345771F054F7000A32FBA /* PerKilometerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerKilometerLabel.h; sourceTree = "<group>"; };
+		108345781F054F7000A32FBA /* PerKilometerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerKilometerLabel.m; sourceTree = "<group>"; };
+		1083457A1F054F8700A32FBA /* PerKulometerPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerKulometerPoint.h; sourceTree = "<group>"; };
+		1083457B1F054F8700A32FBA /* PerKulometerPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerKulometerPoint.m; sourceTree = "<group>"; };
+		1FF87A300E736140E7A9F6FC /* Pods-MAMapOfTracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapOfTracking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAMapOfTracking/Pods-MAMapOfTracking.debug.xcconfig"; sourceTree = "<group>"; };
+		2E9C5AA1763BD0321F5A702B /* Pods_MAMapOfTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAMapOfTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D40E54E0632010F4C7E9F9A /* Pods-MAMapOfTracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapOfTracking.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAMapOfTracking/Pods-MAMapOfTracking.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +83,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4560332EE2B10F0CA5C777ED /* Pods_MAMapOfTracking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1023B5D11EF7709F0009119D /* Until */ = {
+			isa = PBXGroup;
+			children = (
+				1023B5D01EF769C80009119D /* MAMapTracking-Prefix.pch */,
+				1023B5D21EF772EA0009119D /* Const_Basic.h */,
+				1023B5D31EF772EA0009119D /* Const_Basic.m */,
+			);
+			name = Until;
+			sourceTree = "<group>";
+		};
+		103ACB421EF7B57700257928 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				103ACB431EF7B57700257928 /* Controller */,
+				103ACB461EF7B57700257928 /* Model */,
+				103ACB471EF7B57700257928 /* View */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		103ACB431EF7B57700257928 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1054F62C1F0B27080007F074 /* RecordViewController.h */,
+				1054F62D1F0B27080007F074 /* RecordViewController.m */,
+				103ACB441EF7B57700257928 /* RouteDrawViewController.h */,
+				103ACB451EF7B57700257928 /* RouteDrawViewController.m */,
+				1054F62F1F0B27160007F074 /* DisplayViewController.h */,
+				1054F6301F0B27160007F074 /* DisplayViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		103ACB461EF7B57700257928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				103ACB601EF7B63B00257928 /* FileHelper.h */,
+				103ACB611EF7B63B00257928 /* FileHelper.m */,
+				103ACB621EF7B63B00257928 /* SystemInfo.h */,
+				103ACB631EF7B63B00257928 /* SystemInfo.m */,
+				103ACB661EF7C8CA00257928 /* Record.h */,
+				103ACB671EF7C8CA00257928 /* Record.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		103ACB471EF7B57700257928 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1054F6321F0B37230007F074 /* MySlider.h */,
+				1054F6331F0B37230007F074 /* MySlider.m */,
+				1054F6291F0B26C20007F074 /* TipView.h */,
+				1054F62A1F0B26C20007F074 /* TipView.m */,
+				1083457A1F054F8700A32FBA /* PerKulometerPoint.h */,
+				1083457B1F054F8700A32FBA /* PerKulometerPoint.m */,
+				108345771F054F7000A32FBA /* PerKilometerLabel.h */,
+				108345781F054F7000A32FBA /* PerKilometerLabel.m */,
+				103ACB511EF7B5D300257928 /* MAMutablePolyline.h */,
+				103ACB521EF7B5D300257928 /* MAMutablePolyline.m */,
+				103ACB531EF7B5D300257928 /* MAMutablePolylineRenderer.h */,
+				103ACB541EF7B5D300257928 /* MAMutablePolylineRenderer.m */,
+				103ACB491EF7B5A500257928 /* StatusView.h */,
+				103ACB4A1EF7B5A500257928 /* StatusView.m */,
+				103ACB4B1EF7B5A500257928 /* SystemInfoView.h */,
+				103ACB4C1EF7B5A500257928 /* SystemInfoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		10818CB11EF51DAB007D02FB = {
 			isa = PBXGroup;
 			children = (
 				10818CBC1EF51DAB007D02FB /* MAMapOfTracking */,
 				10818CBB1EF51DAB007D02FB /* Products */,
+				77D0398ADE41DF4CA0ECF23C /* Pods */,
+				F98B6AF8BD1C908AF0AD2E4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +180,8 @@
 		10818CBC1EF51DAB007D02FB /* MAMapOfTracking */ = {
 			isa = PBXGroup;
 			children = (
+				103ACB421EF7B57700257928 /* Example */,
+				1023B5D11EF7709F0009119D /* Until */,
 				10818CC01EF51DAB007D02FB /* AppDelegate.h */,
 				10818CC11EF51DAB007D02FB /* AppDelegate.m */,
 				10818CC31EF51DAB007D02FB /* ViewController.h */,
@@ -79,6 +203,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		77D0398ADE41DF4CA0ECF23C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FF87A300E736140E7A9F6FC /* Pods-MAMapOfTracking.debug.xcconfig */,
+				9D40E54E0632010F4C7E9F9A /* Pods-MAMapOfTracking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F98B6AF8BD1C908AF0AD2E4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E9C5AA1763BD0321F5A702B /* Pods_MAMapOfTracking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10818CD11EF51DAB007D02FB /* Build configuration list for PBXNativeTarget "MAMapOfTracking" */;
 			buildPhases = (
+				A0938D54D6F2EF4AD7D26AA2 /* [CP] Check Pods Manifest.lock */,
 				10818CB61EF51DAB007D02FB /* Sources */,
 				10818CB71EF51DAB007D02FB /* Frameworks */,
 				10818CB81EF51DAB007D02FB /* Resources */,
+				6E2ED01989B38A2143C487F1 /* [CP] Embed Pods Frameworks */,
+				21D85B9063076FB2D83C242C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -112,6 +256,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 94A5HQWMK3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -146,14 +295,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21D85B9063076FB2D83C242C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAMapOfTracking/Pods-MAMapOfTracking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E2ED01989B38A2143C487F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAMapOfTracking/Pods-MAMapOfTracking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0938D54D6F2EF4AD7D26AA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10818CB61EF51DAB007D02FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				10818CC51EF51DAB007D02FB /* ViewController.m in Sources */,
+				103ACB481EF7B57700257928 /* RouteDrawViewController.m in Sources */,
+				103ACB651EF7B63B00257928 /* SystemInfo.m in Sources */,
+				108345791F054F7000A32FBA /* PerKilometerLabel.m in Sources */,
+				103ACB4F1EF7B5A500257928 /* SystemInfoView.m in Sources */,
+				1083457C1F054F8700A32FBA /* PerKulometerPoint.m in Sources */,
+				1054F62B1F0B26C20007F074 /* TipView.m in Sources */,
+				103ACB4E1EF7B5A500257928 /* StatusView.m in Sources */,
+				103ACB551EF7B5D300257928 /* MAMutablePolyline.m in Sources */,
+				1023B5D41EF772EA0009119D /* Const_Basic.m in Sources */,
+				103ACB561EF7B5D300257928 /* MAMutablePolylineRenderer.m in Sources */,
 				10818CC21EF51DAB007D02FB /* AppDelegate.m in Sources */,
 				10818CBF1EF51DAB007D02FB /* main.m in Sources */,
+				103ACB681EF7C8CA00257928 /* Record.m in Sources */,
+				1054F6341F0B37230007F074 /* MySlider.m in Sources */,
+				103ACB641EF7B63B00257928 /* FileHelper.m in Sources */,
+				1054F6311F0B27160007F074 /* DisplayViewController.m in Sources */,
+				1054F62E1F0B27080007F074 /* RecordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +483,13 @@
 		};
 		10818CD21EF51DAB007D02FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF87A300E736140E7A9F6FC /* Pods-MAMapOfTracking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 94A5HQWMK3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MAMapOfTracking/MAMapTracking-Prefix.pch";
 				INFOPLIST_FILE = MAMapOfTracking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CancerQ.MAMapOfTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +498,13 @@
 		};
 		10818CD31EF51DAB007D02FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D40E54E0632010F4C7E9F9A /* Pods-MAMapOfTracking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 94A5HQWMK3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MAMapOfTracking/MAMapTracking-Prefix.pch";
 				INFOPLIST_FILE = MAMapOfTracking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CancerQ.MAMapOfTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +530,7 @@
 				10818CD31EF51DAB007D02FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

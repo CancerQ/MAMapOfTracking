@@ -1,0 +1,24 @@
+//
+//  MAMapTracking-Prefix.pch
+//  MAMapOfTracking
+//
+//  Created by 叶志强 on 2017/6/19.
+//  Copyright © 2017年 CancerQ. All rights reserved.
+//
+
+#ifndef MAMapTracking_Prefix_pch
+#define MAMapTracking_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+@import UIKit;
+@import Foundation;
+@import YYKit;
+
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <MAMapKit/MAMapKit.h>
+
+#import "Const_Basic.h"
+
+#endif /* MAMapTracking_Prefix_pch */
