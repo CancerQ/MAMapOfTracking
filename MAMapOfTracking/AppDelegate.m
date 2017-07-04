@@ -6,6 +6,8 @@
 //  Copyright © 2017年 CancerQ. All rights reserved.
 //
 
+#error 运行前重新pod update  如果update过请注释这句话
+
 #import "AppDelegate.h"
 #import "RouteDrawViewController.h"
 

@@ -321,7 +321,7 @@
         __speedColors = [NSMutableArray new];
         
         for (CLLocation *location in self.locationsArray) {
-            [__speedColors addObject:[Record getColorForSpeed:location.speed]] ;
+            [__speedColors addObject:[[self class] getColorForSpeed:location.speed]] ;
         }
     }
     

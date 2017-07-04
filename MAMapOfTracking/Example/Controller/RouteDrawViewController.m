@@ -55,6 +55,7 @@
 
 #pragma mark -
 #pragma mark - LazyLoad (懒加载)
+
 - (MAMapView *)mapView{
     if (!_mapView) {
         _mapView = [[MAMapView alloc]initWithFrame:CGRectMake(0, NavigationViewHeight, SCREEN_WIDTH, SCREEN_HEIGHT - 64)];
