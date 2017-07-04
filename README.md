@@ -1,7 +1,7 @@
 # MAMapOfTracking
 使用高德地图实现路径绘制及重播
-###实现
-####1.绘制
+### 实现
+#### 1.绘制
 ```obj
 - (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation{
     
@@ -49,7 +49,7 @@
 通过代理获取的坐标的传入Record模型中，这里的模型是一个Demo的模型，你们可以根据自己的实际情况定义
 mutablePolyline和mutableView相当于画笔和画板，没错这样去理解（大概就是这个意思）获取到的点在地图变成线 
 
-####2.播放
+#### 2.播放
 播放这里使用mutablePolyline和MAMutablePolylineRenderer *mutableView  是一个能提供有多种颜色的画板去理解，读取之前保存的记录  (我之前实际项目是保存在数据库中的) 这里主要是播放速度和播放点的
 控制
 
