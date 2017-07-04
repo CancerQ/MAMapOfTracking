@@ -1,8 +1,8 @@
-# MAMapOfTracking
-使用高德地图实现路径绘制及重播
+# MAMapOfTracking 
+使用高德地图实现路径绘制及重播  原文地址 http://www.jianshu.com/p/b411adbaa0de
 ### 实现
 #### 1.绘制
-```obj
+```objc
 - (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation{
     
     if (!updatingLocation) {
@@ -53,7 +53,7 @@ mutablePolyline和mutableView相当于画笔和画板，没错这样去理解（
 播放这里使用mutablePolyline和MAMutablePolylineRenderer *mutableView  是一个能提供有多种颜色的画板去理解，读取之前保存的记录  (我之前实际项目是保存在数据库中的) 这里主要是播放速度和播放点的
 控制
 
-```obj
+```objc
 - (void)animateToNextCoordinate
 {
     if (self.myLocation == nil)
@@ -96,7 +96,7 @@ mutablePolyline和mutableView相当于画笔和画板，没错这样去理解（
 获取保存的当前坐标点和上一个点的动画时间
 >动画时间 = 距离 / (播放速度*播放倍数)
 
-```obj
+```objc
  for(MAAnnotationMoveAnimation *animation in [self.myLocation allMoveAnimations]) {
         if ([animation.name isEqualToString:kUserLoctionAnimatedKey]) {
                [animation cancel];
